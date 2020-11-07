@@ -1,0 +1,7 @@
+.cardscontainer {
+  display: grid;
+  place-items: center;
+  width: 95vw;
+  margin: auto;
+  height: 80vh;
+}

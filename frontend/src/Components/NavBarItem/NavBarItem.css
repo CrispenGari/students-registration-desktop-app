@@ -1,0 +1,46 @@
+.navbaritem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  user-zoom: none;
+  width: 200px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.navbaritem:hover {
+  background-color: gray;
+  color: white;
+}
+.navbaritem:active {
+  background-color: blue;
+  color: white;
+}
+
+.navbaritem > h1 {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-transform: lowercase;
+}
+.navbaritem > .MuiSvgIcon-root {
+  font-size: 30px;
+}
+.navbaritem.add > .MuiSvgIcon-root:first-child {
+  color: lightseagreen;
+}
+.navbaritem.delete > .MuiSvgIcon-root:first-child {
+  color: red;
+}
+.navbaritem.update > .MuiSvgIcon-root:first-child {
+  color: orange;
+}
+.navbaritem.all.students > .MuiSvgIcon-root:first-child {
+  color: green;
+}
+.navbaritem.search.student > .MuiSvgIcon-root:first-child {
+  color: yellowgreen;
+}

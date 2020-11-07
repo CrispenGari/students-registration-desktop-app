@@ -1,0 +1,84 @@
+.deletecard {
+  background-color: white;
+  width: 100%;
+  height: 520px;
+  border-radius: 5px;
+}
+.deletecard__form-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.deletecard__form-group > input {
+  outline: none;
+  padding: 10px;
+  flex: 1;
+  width: 250px;
+  border: none;
+  background-color: var(--body-color);
+  caret-color: lightseagreen;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.deletecard > h1,
+.deletcard__left > h1 {
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+}
+.deletcard__left > small {
+  color: red;
+  text-align: center;
+  margin: 5px auto;
+}
+.deletcard__left > h1 {
+  text-overflow: lowercase;
+}
+.deletecard__form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 0.5px solid lightseagreen;
+  border-bottom: 0.5px solid lightseagreen;
+}
+
+.deletecard__right {
+  flex: 1;
+  padding: 10px;
+}
+.deletecard__left {
+  padding: 10px;
+}
+.deletecard__button {
+  color: white !important;
+  background-color: steelblue !important;
+  width: 150px !important;
+}
+.deletecard__right {
+  border-left: 1px solid orange;
+  display: grid;
+  place-items: center;
+}
+.deletecard__avatar {
+  width: 160px !important;
+  height: 160px !important;
+  margin-bottom: 10px !important;
+  cursor: pointer;
+}
+.deletecard__right > p {
+  width: 100%;
+  display: flex;
+  margin: 2px auto;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 5px 2px;
+  cursor: pointer;
+  user-select: none;
+}

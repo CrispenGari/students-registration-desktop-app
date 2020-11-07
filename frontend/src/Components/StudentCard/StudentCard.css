@@ -1,0 +1,23 @@
+.studentcard {
+  display: flex;
+  user-select: none;
+  justify-content: space-between;
+  padding: 2px 10px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.studentcard:nth-child(odd) {
+  background-color: var(--body-color);
+}
+.studentcard > small {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.studentcard > small > span {
+}
+.studentcard > small > span:last-child {
+  text-transform: capitalize !important;
+}

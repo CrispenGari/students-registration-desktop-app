@@ -1,0 +1,12 @@
+
+export {default as Menus } from './Menus/Menus'
+export {default as StudentCard } from './StudentCard/StudentCard'
+export {default as MainApp } from './MainApp/MainApp'
+export {default as NavBar } from './NavBar/NavBar'
+export {default as NavBarItem } from './NavBarItem/NavBarItem'
+export {default as CardsContainer } from './CardsContainer/CardsContainer'
+export {default as Add } from './Add/Add'
+export {default as Update } from './Update/Update'
+export {default as Search } from './Search/Search'
+export {default as Delete } from './Delete/Delete'
+export {default as AllStudents } from './AllStudents/AllStudents'

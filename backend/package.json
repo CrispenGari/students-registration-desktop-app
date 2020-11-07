@@ -1,0 +1,20 @@
+{
+  "name": "student-backend",
+  "version": "1.0.0",
+  "description": "THIS IS THE SQLITE3 DATABASE SERVER WITH EXPRESS FOR THE STUDENT REGISTRATION APP",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "main.js"
+  },
+  "author": "CRISPEN T GARI",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "knex": "^0.21.12",
+    "pusher": "^4.0.0",
+    "sqlite3": "^5.0.0"
+  }
+}

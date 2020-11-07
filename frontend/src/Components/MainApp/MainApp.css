@@ -1,0 +1,7 @@
+.mainapp {
+  display: flex;
+  flex-direction: column;
+}
+.mainapp__cards {
+  flex: 1;
+}
